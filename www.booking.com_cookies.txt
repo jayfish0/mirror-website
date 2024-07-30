@@ -1,0 +1,34 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.booking.com	TRUE	/	TRUE	1755762338	px_init	0
+.booking.com	TRUE	/	TRUE	1736754338	pcm_personalization_disabled	0
+.booking.com	TRUE	/	TRUE	1751496807	pcm_consent	analytical%3Dtrue%26countryCode%3DUS%26consentId%3Db0a82ba3-9ad3-45f1-afb9-e13e92e88218%26consentedAt%3D2024-07-02T22%3A53%3A26.120Z%26expiresAt%3D2025-06-27T22%3A53%3A26.120Z%26implicit%3Dtrue%26marketing%3Dtrue%26regionCode%3DCA%26regulation%3Dccpa%26legacyRegulation%3Dnone
+.booking.com	TRUE	/	FALSE	1751496806	cors_js	1
+.booking.com	TRUE	/	TRUE	1754520808	bkng_sso_ses	e30
+.booking.com	TRUE	/	TRUE	1754520808	bkng_sso_session	e30
+.booking.com	TRUE	/	FALSE	1727736808	_gcl_au	1.1.540574019.1719960808
+.booking.com	TRUE	/	FALSE	1752738338	_pin_unauth	dWlkPU5UbGxabUptTVRrdE1tTTRZeTAwTVdNekxXRTRORGd0WVRrMVpqTXlNR0ptWldObQ
+.booking.com	TRUE	/	TRUE	1755762339	FPID	FPID2.2.FVr2Qcv48VKoNPdlHx0%2B0qxvG8WsREk5N1cRI105m30%3D.1719960807
+.booking.com	TRUE	/	TRUE	1755762315	bkng_sso_auth	CAIQsOnuTRpmgaxxDTTOVu805jnsePvxe2kuV88I6FZSV0Ufah5OuFpzqqknYHjALpqBWQcquJGLHaHKyWCxa5OFDOg6qNTekLmi64APSHh47Tqa6pwUvWhGiJjPiSBY3Q5WiQCcGbytRCqV28AD
+.booking.com	TRUE	/	FALSE	1721288738	_gid	GA1.2.1346431414.1721202316
+.booking.com	TRUE	/	FALSE	1721202376	_gat	1
+.booking.com	TRUE	/	TRUE	1721288739	BJS	-
+.booking.com	TRUE	/	FALSE	0	bkng_prue	1
+.booking.com	TRUE	/	TRUE	1753656807	__gads	ID=369caaad5ed8c556:T=1719960807:RT=1721202317:S=ALNI_MatLLm8Ad4rSfsiiQgCx4lCQ10KqA
+.booking.com	TRUE	/	TRUE	1753656807	__gpi	UID=00000e624ba36c92:T=1719960807:RT=1721202317:S=ALNI_Mak9fv--ut7QwSIUky70oktksXKuA
+.booking.com	TRUE	/	TRUE	1735512807	__eoi	ID=2e6fd71476ffb1be:T=1719960807:RT=1721202317:S=AA-AfjYxsa0cvLcERSBKzVYBNork
+.booking.com	TRUE	/	TRUE	1721274318	FPLC	OtyvmpwnYesA9UcYFYIXhYrQWRWUClcXWYXDSGG5cGVO5DeDWhrE%2Bm0KlEXsUTb%2B3jcLe2qVBU%2BMZE9CUDtLOwblTBN%2FGOJiYTkaKbw7I9lUlRf7vA%2ByAypdvZ%2FbyQ%3D%3D
+.www.booking.com	TRUE	/	TRUE	1752738338	OptanonConsent	isGpcEnabled=0&datestamp=Wed+Jul+17+2024+00%3A45%3A38+GMT-0700+(Pacific+Daylight+Time)&version=202403.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=17ecc8ba-9928-46ec-b4dd-63e86f4c1ced&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0004%3A1&implicitConsentCountry=nonGDPR&implicitConsentDate=1719960807851&AwaitingReconsent=false
+.booking.com	TRUE	/	FALSE	1755762339	_ga_A12345	GS1.1.1721202317.3.1.1721202338.0.0.2123976695
+.booking.com	TRUE	/	FALSE	1755762339	_ga	GA1.1.1251719243.1719960807
+.booking.com	TRUE	/	FALSE	1721288738	_uetsid	82a375b0441011ef88a50551c0973c76
+.booking.com	TRUE	/	FALSE	1754898338	_uetvid	e7ba8fd00d1811efa5ca0f68c3cc09a3
+.booking.com	TRUE	/	FALSE	1752738338	_derived_epik	dj0yJnU9ZHRJSGJDYXk2MVZEOE1ldDhIRHBsUUVKRHFtVmFMYzgmbj04Tjg0TktxQWpMclltbkpHTnVuc3V3Jm09MSZ0PUFBQUFBR2FYZHFJJnJtPTEmcnQ9QUFBQUFHYVhkcUkmc3A9Mg
+.booking.com	TRUE	/	FALSE	1721807139	cgumid	DsY48h1nKa8drSlZFrnFjZwaORYgCWCJ
+.booking.com	TRUE	/	FALSE	1755366339	cto_bundle	lvl4gF9Udlg0R2hjZ2xhUElKdnM2MUFzTk03OGQ5VHR0UkJmSElkOGZTMXJDc2VKbzhCWnpYJTJCV2lkTTNMSzBsRU1hQSUyRlgxSThJSUltOHNmUk5EeHFPdDh4UllSJTJGY2JOcmlnejhaaWJHanltcVlhaVk4dzFxUXdQanEyV2JBNWpoSGhHNHRGaXVCQmdqUGlHMHhNM25qNFo2Z2JiY3FCcE9vZGJxWjNnaHdFYU8yUjFsVkhxOVc0dFdtcFlQT1dqVGQlMkJQdnlFOFJNMUlsd3JVbHY1Q1dLUkNWSXozMlpMUjdtWnVWbGUlMkZmd1lUdloxa3ZuJTJGU1BrRHFzb1EwMlJLWlRYYTlP
+.booking.com	TRUE	/	FALSE	1755762342	_ga_SEJWFCBCVM	GS1.1.1721202317.2.1.1721202342.35.0.0
+.booking.com	TRUE	/	FALSE	0	lastSeen	1721202350105
+.booking.com	TRUE	/	TRUE	1755762351	bkng	11UmFuZG9tSVYkc2RlIyh9YXSgTtYpR%2F1WOjMvuuinviHJ0Pf6EuTFVLribGx1sRMtveb9saudxuDKo3qXZWBu6NC1oqwgk%2Btza%2BKBulnqO8dYoboJFAponTGsOw2P5EAnmmzqB5MXwjseKDEWr9sAkDm0WPSDxypQJjMgA69MUjrsuI2HeXYY3bTZPOnyR7fljqgKdnx%2FNNAGCGz%2BbnO6sw%3D%3D
+.booking.com	TRUE	/	TRUE	1721547958	aws-waf-token	03cda858-a026-4e92-b59b-c1f051e0a898:EwoA3a81rymVAAAA:q2hNWwIpdsmo7nGouKRDTUWhRfAsqt6TgmKo0xp1VoVPLlsekAfJlWX/6ZNr2rgPKKMk7YKfJDfaIf1Tx70JnYI/ERHTApgY4ZgQl7+NiHdOl+LjHRE9kT4hrEfRbggxrJHrvgcP+BasR3JeYAjRfUPLCGdAh+Y6DiU6fAuzI4vL7l9cG8Y80PUZgn2X4b7MxaeXCSZR0pwjr5CPi5UYwq4oXeeWlk54TPO33o9HzZviTxus/WxW6Bo3rYHc4G/+mAg=

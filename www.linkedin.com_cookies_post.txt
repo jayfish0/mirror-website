@@ -1,0 +1,30 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.linkedin.com	TRUE	/	TRUE	1729101001	li_sugr	a71c7908-2cf9-478f-bd46-8d575183b35b
+.linkedin.com	TRUE	/	TRUE	1752861056	bcookie	"v=2&2435cae0-0e7a-4e86-83f7-697fc1a5db11"
+.www.linkedin.com	TRUE	/	TRUE	1752861002	bscookie	"v=1&202404081850277c660f75-cfea-462f-81f3-dd32d0548260AQGHKX6QqyF_8_cBk_lngfbeAmJSBf1P"
+www.linkedin.com	FALSE	/	FALSE	1736194871	g_state	{"i_l":0}
+.www.linkedin.com	TRUE	/	TRUE	1722534599	timezone	America/Los_Angeles
+.www.linkedin.com	TRUE	/	TRUE	1736880600	li_theme	light
+.www.linkedin.com	TRUE	/	TRUE	1736880600	li_theme_set	app
+.linkedin.com	TRUE	/	TRUE	1744910306	dfpfpt	eb5ff57aae4a4ffd9ef86e8409e30b0a
+.www.linkedin.com	TRUE	/	TRUE	1752178866	li_rm	AQFU_J7x5FipKgAAAZCeTom_pGLJ6dB77_K8NXE0195YsD9A6vmpPRdFaSZymTT9r2aAtu4HTS69ay4aFZgO0DAxc4jhM0Ie1xBmOFmEDdt2qrrsgGRkfRag3LrLW4NaH_yOHeE4BWG55aJP7wIgxzLYMJEfzVXJdfdPdHgNVKfV7JQAHm_tS7xu9DFnqxfRFnQLFBnbCffunPk34cUq_ebh49fMYeLBZVh4CgA762lBIRfzjba7nhTUtSJtypUM2EF_RRnJJuFZ5xciWe_Yfef4Y5VCLccJo2nZq6MRpOluT_O-0xvxetvhV-7OMj5b3QVV3r1PscGA6oKvk9o
+.linkedin.com	TRUE	/	TRUE	1755202866	visit	v=1&M
+.linkedin.com	TRUE	/	FALSE	1723917230	aam_uuid	19612134565568378763951171875035736352
+.linkedin.com	TRUE	/	TRUE	1752861000	liap	true
+.linkedin.com	TRUE	/	TRUE	1728418874	_guid	5be3eb33-9851-49f3-9601-c103ebd1cf02
+.linkedin.com	TRUE	/	FALSE	1728418937	_gcl_au	1.1.1233158795.1720642874
+.linkedin.com	TRUE	/	FALSE	1752264963	mp_94085d51c4102efbb82a71d85705cdcf_mixpanel	%7B%22distinct_id%22%3A%20%22clyg9cits06wcevmqwozdgfex%22%2C%22%24device_id%22%3A%20%2218fcd252f00cb2-0eac169cd1706-1a525637-384000-18fcd252f013224%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%2C%22%24user_id%22%3A%20%22clyg9cits06wcevmqwozdgfex%22%7D
+.linkedin.com	TRUE	/	TRUE	0	lang	v=2&lang=en-us
+.linkedin.com	TRUE	/	FALSE	0	AMCVS_14215E3D5995C57C0A495C55%40AdobeOrg	1
+.www.linkedin.com	TRUE	/	TRUE	1752861000	li_at	AQEDAVCcOkkC36OyAAABkJ5OpREAAAGQ6wOW0FYAWdUm6uxiSlF-Ldjea2QUMMyspkuEs1kje1f5fLXOflAqsJqxXlwB2ACJrjxLF6CwKl4fQED8X1JswwlCesFVn-nNqMftlQwkzkmoA1iyQOuP8emp
+.www.linkedin.com	TRUE	/	TRUE	1752861000	JSESSIONID	"ajax:8669597377139596924"
+.linkedin.com	TRUE	/	TRUE	1723917001	UserMatchHistory	AQI7hsREp9nL7QAAAZDG9xmwfBaUQXge6UuFsK0nCzc-XJrNKkvxzI7gLwkhN6y6LBFzLQ2Y1VhyxsFSrYm38GNnN5Axk9SIIUVllZIyO1_l6rDd7VlZVK51Ez95MS63BMTgrLVsVijeuFX784AKlFF81gnLObDyJj2_AZm52Q0LizA-7yf7DHJGH8mfNuGPLxw9L9HDELv-L-agmp7iQQh2Djm6Wb4xq-Qo3U-e8AJxM8CwU8vLUEFAHSZhDXcFep9l7xvZbEz7BVrVgeNmHjHKC8RDqjX2b_fj34kb67fzb4dh6sql5rH_qbksYGGFREE9HQo1LUD1SjxFQ_tyqpgQyrkpJTldBr-DQZ9cr6TODn3UDA
+.linkedin.com	TRUE	/	TRUE	1723917001	AnalyticsSyncHistory	AQL9r2EGFwdwpQAAAZDG9xmwyTEFI3T9IXXZ6fnW5Q_cRLwjNLNpq0_jOETOcJa-AZIfxWSpzjcc6DLsHZeCdA
+.linkedin.com	TRUE	/	TRUE	1723917001	lms_ads	AQFUux5exaRIogAAAZDG9xn9DF6_gGR44ptrSad6uKOaW0J_BRmhuN0FxAJAYvkmcn7cFNrohAmQqo6FsosevZJof0X68kmm
+.linkedin.com	TRUE	/	TRUE	1723917001	lms_analytics	AQFUux5exaRIogAAAZDG9xn9DF6_gGR44ptrSad6uKOaW0J_BRmhuN0FxAJAYvkmcn7cFNrohAmQqo6FsosevZJof0X68kmm
+.linkedin.com	TRUE	/	TRUE	0	fptctx2	taBcrIH61PuCVH7eNCyH0MJojnuUODHcZ6x9WoxhgCk98QApBnjlK8k2fzl%252bls3bVeeAJsKHEH3LtFsrJUtLRcu35hWD49Z6Sdd8VbLIdo61rEk%252fTzCqVkicxUnaFgDfbt4wqt6aUsFenaCTJYPECY42OgHompTqIvCyhExvbE0cWsxukuXBb%252fDj5SeJhWWwCgzW5cXhOlI9rubLC9hGNwN%252bOsTDfkEy%252bkmC1Ey8Hrh0acZRagyERYx3Mab5GTahQp7SLX3eTC7u4FY0RoJJYuBWxEOjsFTelBSiHk0EKIr85jSkYgsKcLM1Kf2YOR8YP%252fZQk3lm1wRyGkRoAn85nIxISN5GlK1XZ6ic0313bAQ%253d
+.linkedin.com	TRUE	/	FALSE	1736877002	AMCV_14215E3D5995C57C0A495C55%40AdobeOrg	-637568504%7CMCIDTS%7C19922%7CMCMID%7C20155169803114721913898515144559696619%7CMCAAMLH-1721929802%7C9%7CMCAAMB-1721929802%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1721332202s%7CNONE%7CvVersion%7C5.1.1%7CMCCIDH%7C-1059892426
+.linkedin.com	TRUE	/	TRUE	1721411400	lidc	"b=OB17:s=O:r=O:a=O:p=O:g=9873:u=6:x=1:i=1721325055:t=1721411399:v=2:sig=AQFkkhntYkh3UEH2yOfuKDxrRkb9Ayre"

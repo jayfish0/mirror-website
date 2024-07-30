@@ -1,0 +1,41 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.linkedin.com	TRUE	/	TRUE	1729401233	li_sugr	a71c7908-2cf9-478f-bd46-8d575183b35b
+.linkedin.com	TRUE	/	TRUE	1753161233	bcookie	"v=2&2435cae0-0e7a-4e86-83f7-697fc1a5db11"
+.www.linkedin.com	TRUE	/	TRUE	1753142237	bscookie	"v=1&202404081850277c660f75-cfea-462f-81f3-dd32d0548260AQGHKX6QqyF_8_cBk_lngfbeAmJSBf1P"
+www.linkedin.com	FALSE	/	FALSE	1736194871	g_state	{"i_l":0}
+.www.linkedin.com	TRUE	/	TRUE	1722834832	timezone	America/Los_Angeles
+.www.linkedin.com	TRUE	/	TRUE	1737180832	li_theme	light
+.www.linkedin.com	TRUE	/	TRUE	1737180832	li_theme_set	app
+.linkedin.com	TRUE	/	TRUE	1744910306	dfpfpt	eb5ff57aae4a4ffd9ef86e8409e30b0a
+.www.linkedin.com	TRUE	/	TRUE	1752178866	li_rm	AQFU_J7x5FipKgAAAZCeTom_pGLJ6dB77_K8NXE0195YsD9A6vmpPRdFaSZymTT9r2aAtu4HTS69ay4aFZgO0DAxc4jhM0Ie1xBmOFmEDdt2qrrsgGRkfRag3LrLW4NaH_yOHeE4BWG55aJP7wIgxzLYMJEfzVXJdfdPdHgNVKfV7JQAHm_tS7xu9DFnqxfRFnQLFBnbCffunPk34cUq_ebh49fMYeLBZVh4CgA762lBIRfzjba7nhTUtSJtypUM2EF_RRnJJuFZ5xciWe_Yfef4Y5VCLccJo2nZq6MRpOluT_O-0xvxetvhV-7OMj5b3QVV3r1PscGA6oKvk9o
+.linkedin.com	TRUE	/	TRUE	1755202866	visit	v=1&M
+.linkedin.com	TRUE	/	FALSE	1724216355	aam_uuid	19612134565568378763951171875035736352
+.linkedin.com	TRUE	/	TRUE	1752861000	liap	true
+.linkedin.com	TRUE	/	TRUE	1728418874	_guid	5be3eb33-9851-49f3-9601-c103ebd1cf02
+.linkedin.com	TRUE	/	FALSE	1729118698	_gcl_au	1.1.1233158795.1720642874
+.linkedin.com	TRUE	/	FALSE	1752264963	mp_94085d51c4102efbb82a71d85705cdcf_mixpanel	%7B%22distinct_id%22%3A%20%22clyg9cits06wcevmqwozdgfex%22%2C%22%24device_id%22%3A%20%2218fcd252f00cb2-0eac169cd1706-1a525637-384000-18fcd252f013224%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%2C%22%24user_id%22%3A%20%22clyg9cits06wcevmqwozdgfex%22%7D
+.www.linkedin.com	TRUE	/	TRUE	1752861000	li_at	AQEDAVCcOkkC36OyAAABkJ5OpREAAAGQ6wOW0FYAWdUm6uxiSlF-Ldjea2QUMMyspkuEs1kje1f5fLXOflAqsJqxXlwB2ACJrjxLF6CwKl4fQED8X1JswwlCesFVn-nNqMftlQwkzkmoA1iyQOuP8emp
+.www.linkedin.com	TRUE	/	TRUE	1752861000	JSESSIONID	"ajax:8669597377139596924"
+.linkedin.com	TRUE	/	TRUE	1723917001	lms_ads	AQFUux5exaRIogAAAZDG9xn9DF6_gGR44ptrSad6uKOaW0J_BRmhuN0FxAJAYvkmcn7cFNrohAmQqo6FsosevZJof0X68kmm
+.linkedin.com	TRUE	/	TRUE	1723917001	lms_analytics	AQFUux5exaRIogAAAZDG9xn9DF6_gGR44ptrSad6uKOaW0J_BRmhuN0FxAJAYvkmcn7cFNrohAmQqo6FsosevZJof0X68kmm
+.linkedin.com	TRUE	/	TRUE	1724191898	AnalyticsSyncHistory	AQKXYjfPzAPYOAAAAZDXWbASFnsyZOxNs0lO-RQb5f9UusNCJmPzQbK1VKT6PVN19ZUwLQuaKFnCnLQMhgEsTw
+.linkedin.com	TRUE	/	TRUE	0	lang	v=2&lang=en-us
+.linkedin.com	TRUE	/	FALSE	0	AMCVS_14215E3D5995C57C0A495C55%40AdobeOrg	1
+.linkedin.com	TRUE	/	TRUE	0	fptctx2	taBcrIH61PuCVH7eNCyH0MJojnuUODHcZ6x9WoxhgCk98QApBnjlK8k2fzl%252bls3bVeeAJsKHEH3LtFsrJUtLRcu35hWD49Z6Sdd8VbLIdo61rEk%252fTzCqVkicxUnaFgDfbt4wqt6aUsFenaCTJYPECb1TE1ngj%252bJP%252bUjCsVbrcRDF%252bzYVnEsV2JZAJS58zuSUS8VOmdluX9oBuVNPRlrW2yHfNuNw%252fYgWJ2ulvm50dlolUYKYp2F%252bKFP7O83ViHdQg6o5EARtbW2iKHBtL9LkO%252fq0fecipD9F%252basAq3Fs05LuJKuJnJ2mj8Kswv3raWu5mxPXu998h6OmtksuohbhhKMGgQHiH%252bgYFXFvtJFywGE%253d
+.linkedin.com	TRUE	/	TRUE	0	at_check	true
+.linkedin.com	TRUE	/	FALSE	1737160494	s_fid	4C01398E4A8D5C51-0E3F2CFCED4340D9
+.linkedin.com	TRUE	/	FALSE	1737160494	gpv_pn	developer.linkedin.com%2Fproduct-catalog
+.linkedin.com	TRUE	/	FALSE	1737160494	s_ips	959
+.linkedin.com	TRUE	/	FALSE	1737160494	s_tslv	1721608494002
+.linkedin.com	TRUE	/	FALSE	0	s_cc	true
+.linkedin.com	TRUE	/	TRUE	1737160495	mbox	session#aa97c347296041d1a5928d80ab3000e8#1721610355|PC#aa97c347296041d1a5928d80ab3000e8.35_0#1737160495
+.linkedin.com	TRUE	/	FALSE	0	s_plt	0.84
+.linkedin.com	TRUE	/	FALSE	0	s_pltp	developer.linkedin.com%2Fproduct-catalog
+.linkedin.com	TRUE	/	FALSE	1737160495	s_tp	5434
+.linkedin.com	TRUE	/	FALSE	0	s_ppv	developer.linkedin.com%2Fproduct-catalog%2C79%2C18%2C4317.5%2C4%2C5
+.linkedin.com	TRUE	/	FALSE	1737176355	AMCV_14215E3D5995C57C0A495C55%40AdobeOrg	-637568504%7CMCIDTS%7C19927%7CMCMID%7C20155169803114721913898515144559696619%7CMCAAMLH-1722229155%7C9%7CMCAAMB-1722229155%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1721631555s%7CNONE%7CvVersion%7C5.1.1%7CMCCIDH%7C-1059892426
+.linkedin.com	TRUE	/	TRUE	1724217232	UserMatchHistory	AQKdjsgwapjnqwAAAZDY3EXD0PZtlxCxSGW_rsdjjESkdwhftSbTlRfP7QBgmhYGhEceAPn1lX4pjuj1zw-dl4O5sPSWkKgX6W-PZdWXhi6BR_o7I-Fiss7RwDNvk-035J4FVI5Rh0HoSpJQJAA4dEpje7BKcdbZWJs3tIbnTZdhmApIvrQDCopQ7SZaP7JgdfeeWs54L6o1j4u4cZYSZC32nImnQ83T2ct2l4hwA6GkJk5UAzTW9nlgtI7dQAKUxVLQp1KN_ER_Niu_QqQMdPTizFGNcBTaBYM_WjHIQx0dRan7pyBktlzvP1o0bZi-fenqZCc2nOaGtiyR-X88YPXnHIC8tlhNu2KeYpoyq4iIP1FJ6A
+.linkedin.com	TRUE	/	TRUE	1721692638	lidc	"b=OB17:s=O:r=O:a=O:p=O:g=9874:u=6:x=1:i=1721625233:t=1721692637:v=2:sig=AQESCuoQhFH2G50shfObwOACqgvW2xq5"

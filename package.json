@@ -1,0 +1,17 @@
+{
+  "name": "phantomjs",
+  "version": "1.0.0",
+  "main": "download.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.45.1",
+    "tough-cookie": "^4.1.4",
+    "webpage": "^0.3.0"
+  }
+}
