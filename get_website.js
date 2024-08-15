@@ -45,11 +45,43 @@ async function setCookiesFromFile(context, filePath) {
     await context.addCookies(playwrightCookies);
 }
 
+
+async function saveCookies(page, cookiesPath) {
+    const cookies = await page.context().cookies();
+    await fs.writeFile(cookiesPath, JSON.stringify(cookies));
+    console.log('Cookies saved successfully');
+  }
+  
+  async function loadCookies(page, cookiesPath) {
+    try {
+      const cookiesString = await fs.readFile(cookiesPath);
+      const cookies = JSON.parse(cookiesString);
+      await page.context().addCookies(cookies);
+      console.log('Cookies loaded successfully');
+    } catch (error) {
+      console.error('Error loading cookies:', error);
+    }
+  }
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 async function downloadPage(url, outputFile, cookieFilePath) {
     const browser = await chromium.launch({headless: false});
     const context = await browser.newContext();
-    await setCookiesFromFile(context, cookieFilePath);
+    // await setCookiesFromFile(context, cookieFilePath);
+    const page = await context.newPage();
 
+    const cookiesPath = './cookies.json';
+  
+    // Example: Visit a website and save cookies
+    await page.goto(url);
+    await saveCookies(page, cookiesPath);
+  
+    // Close the browser
+    await browser.close();
+    
     let scroll = async (args) => {
         const {direction, speed} = args;
         const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -61,12 +93,13 @@ async function downloadPage(url, outputFile, cookieFilePath) {
         console.error(start, shouldStop(start), increment)
 
         // definite scroll
-        // for (let i = start; !shouldStop(i); i += increment) {
-        //     window.scrollTo(0, i);
-        //     await delay(delayTime);
-        // }
+        for (let i = start; !shouldStop(i); i += increment) {
+            window.scrollTo(0, i);
+            await delay(delayTime);
+        }
 
         // infinity scroll 
+        console.log("scrolling...")
         i=start
         for (let j = 0; j < 120; j++) {
             window.scrollTo(0, i);
@@ -74,10 +107,13 @@ async function downloadPage(url, outputFile, cookieFilePath) {
             i += increment
         }
     };
+    await page.evaluate(scroll, {direction: "down", speed: "slow"});
 
     const page = await context.newPage();
+
     await page.goto(url, { waitUntil: 'domcontentloaded' });
-    await page.evaluate(scroll, {direction: "down", speed: "slow"});
+    await sleep(20000);
+
     
     const content = await page.content();
     fs.writeFileSync(outputFile, content);
@@ -85,9 +121,9 @@ async function downloadPage(url, outputFile, cookieFilePath) {
     await browser.close();
 }
 
-const url = 'https://www.linkedin.com/in/carolxie08/';
+const url = 'https://www.instagram.com/'
 const outputFile = 'page.html';
-const cookieFilePath = 'www.linkedin.com_cookies_profile.txt';
+const cookieFilePath = 'www.instagram.com_cookies.txt';
 
 downloadPage(url, outputFile, cookieFilePath).then(() => {
     console.log(`Page downloaded and saved as ${outputFile}`);
