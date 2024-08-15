@@ -10,10 +10,11 @@ from datetime import datetime
 import asyncio
 import time
 from playwright.sync_api import sync_playwright
+from agentql.ext.playwright.sync_api import Page
 
 os.environ["AGENTQL_API_KEY"] = "KboIsCoPp8c_H-gnQxqFM27WSqZDitRKffSkeOdEViGc7d_aa72DVw"
 
-QUERY = """
+INS_QUERY = """
 {
     posts[] {
         username
@@ -39,16 +40,20 @@ NOTIFICATION_QUERY = """
 """    
 
 def get_cookies(account_name, pwd):
-    session = agentql.start_session(url="https://www.instagram.com")
-    login_box = session.query(LOGIN_QUERY)
-    login_box.username_fill_box.type(account_name)
-    login_box.password_fill_box.type(pwd)
-    login_box.login_button.click()
+    with sync_playwright() as playwright:
+        browser = playwright.chromium.launch(headless=False)
+        context = browser.new_context()
+        page: Page = context.new_page()
+        page.goto("https://www.instagram.com")
+        
+        login_box = page.query_elements(LOGIN_QUERY)
+        login_box.username_fill_box.type(account_name)
+        login_box.password_fill_box.type(pwd)
+        login_box.login_button.click()
 
-    time.sleep(5)
-    cookie = session.get_user_auth_session()
-    session.stop()
-    return cookie 
+        time.sleep(5)
+        cookie = context.cookies()
+        return cookie 
 
 def scroll(page, direction="down", speed="slow"):
     delay = lambda ms: time.sleep(ms / 10000)
@@ -76,19 +81,27 @@ def scroll(page, direction="down", speed="slow"):
 
 def save_website(session_cookie):
     print("Saving website...")
-    session = agentql.start_session(url="https://www.instagram.com", user_auth_session=session_cookie)
-    notification_box = session.query(NOTIFICATION_QUERY)
-    notification_box.not_now_button.click()
+    with sync_playwright() as playwright:
+        browser = playwright.chromium.launch(headless = False)
+        context = browser.new_context()
+        context.add_cookies(session_cookie)
+        page = context.new_page()
+        page.goto("https://www.instagram.com")
 
-    page = session.current_page
-    scroll(page, direction="down", speed="slow")
-    print("getting page content...")
-    html = page.content()
-    with open("page.html", "w") as f:
-        f.write(html)
-    print("page saved!")
-    time.sleep(3)
-    session.stop()
+        notification_box = page.query_elements(NOTIFICATION_QUERY)
+        notification_box.not_now_button.click()
+
+        scroll(page, direction="down", speed="slow")
+        print("getting data...")
+        result = page.query_data(INS_QUERY)
+        print(result)
+        print("getting page content...")
+        html = page.content()
+        with open("page.html", "w") as f:
+            f.write(html)
+        print("page saved!")
+        time.sleep(3)
+
 # def save_website(session_cookie):
 #     with sync_playwright() as p:
 #         browser = p.chromium.launch(headless = False)
@@ -110,18 +123,20 @@ def get_cookie():
     try:
         # Step 0: log in and get the cookies
         session_cookie = get_cookies("tinyfishtest3", "T!nyfish623")
-        json.dump(session_cookie, open("session_cookie.json", "w"), indent=4)
+        with open("cookies.json", "w") as f:
+            f.write(json.dumps(session_cookie))
     except Exception as e:
         print(f"Error: {e}")
+
     print("Cookie saved!")
 
 def main():
     try:
         # Step 0: log in and get the cookies
-        # get_cookie()
+        get_cookie()
         
         # Step 1: save website
-        session_cookie = json.load(open("session_cookie.json", "r"))
+        session_cookie = json.load(open("cookies.json", "r"))
         save_website(session_cookie)
 
     except Exception as e:

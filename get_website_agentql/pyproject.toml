@@ -8,8 +8,12 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 playwright = "^1.46.0"
-agentql = "^0.5.3"
+agentql = { version = "==0.5.4.dev2", source = "tinyfish" }
 
+[[tool.poetry.source]]
+name = "tinyfish"
+url = "https://pypi.production.tinyfish.io/"
+priority = "supplemental"
 
 [build-system]
 requires = ["poetry-core"]

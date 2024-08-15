@@ -1,0 +1,17 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.instagram.com	TRUE	/	TRUE	1752133323	ig_did	D2A2A630-41BF-4CF9-9D96-13FAF91F1512
+.instagram.com	TRUE	/	TRUE	1755157321	datr	SDuOZu9uyTtfwASyB1UZ_zOx
+.instagram.com	TRUE	/	TRUE	1755157322	mid	Zo47SAAEAAHR64jFv8nF2A3RKgWV
+.instagram.com	TRUE	/	TRUE	1752133322	ig_nrcb	1
+.instagram.com	TRUE	/	TRUE	1755115211	csrftoken	4jzbdZFVo9ygIYWU16gT6LGqvkfmL6yT
+.instagram.com	TRUE	/	TRUE	1731441611	ds_user_id	67613378779
+.instagram.com	TRUE	/	TRUE	1755636876	ps_n	1
+.instagram.com	TRUE	/	TRUE	1755636876	ps_l	1
+.instagram.com	TRUE	/	TRUE	1724264057	shbid	"815\05467613378779\0541755195257:01f73ddb254c16962149af9d841d457c8cd5f02648e34d6a468edcf68fce65f7ea06efc9"
+.instagram.com	TRUE	/	TRUE	1724264057	shbts	"1723659257\05467613378779\0541755195257:01f7d9d0f1a58ed573995157433dc9bd04affbfa169d7c31201ad5932b8c77fb42a73d81"
+.instagram.com	TRUE	/	TRUE	1755195262	sessionid	67613378779%3AsOa04AJuYl4BbX%3A6%3AAYd--6ImPA_ouP14H15FpXM8OlU1l28R_zJ8-lohnw
+.instagram.com	TRUE	/	TRUE	1724270408	wd	2560x1319
+.instagram.com	TRUE	/	TRUE	0	rur	"CCO\05467613378779\0541755201611:01f7c7d1032c6d809d6f99a4c08495623532272fb8b88c390d024cd25733399f39d1b5eb"

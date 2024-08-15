@@ -2,13 +2,13 @@
 
 [[package]]
 name = "agentql"
-version = "0.5.3"
+version = "0.5.4.dev2"
 description = "Tiny Fish AgentQL Python Client"
 optional = false
-python-versions = "<4.0,>=3.8"
+python-versions = ">=3.8,<4.0"
 files = [
-    {file = "agentql-0.5.3-py3-none-any.whl", hash = "sha256:ffb5211838ca5afef3c9fa2bdb92919e49847cb8fa51a85916c930fcabe469c8"},
-    {file = "agentql-0.5.3.tar.gz", hash = "sha256:e4613309778e1a48a80caafd1eb657abee924a2796c3db53fe30769b85aba2ba"},
+    {file = "agentql-0.5.4.dev2-py3-none-any.whl", hash = "sha256:955ef78553e9c7700e821de2ab050eaa69df549abcf1747c341128484f48d2ca"},
+    {file = "agentql-0.5.4.dev2.tar.gz", hash = "sha256:816d3f9756b58ef4b0fd3030004e9c1d88d4777d8325985f0955b1cf7f47766a"},
 ]
 
 [package.dependencies]
@@ -20,6 +20,11 @@ pytest-asyncio = ">=0,<1"
 requests = ">=2,<3"
 tf-playwright-stealth = "*"
 typer = ">=0,<1"
+
+[package.source]
+type = "legacy"
+url = "https://pypi.production.tinyfish.io"
+reference = "tinyfish"
 
 [[package]]
 name = "aiofiles"
@@ -746,4 +751,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "021de67bc25e4bc1eeded3082ea016197c7cd8d3ddd631075ca3682c1c406605"
+content-hash = "9aa77e86d4921e7ce2c2651cca327e438e52551855a725f45cfade72fcc915e6"
